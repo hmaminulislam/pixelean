@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK LTD - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <!-- Logo -->
+        <div class="logo-container">
+            <h3>SMK LTD.</h3>
+        </div>
+        <!-- Navigation -->
+        <nav>
+            <ul class="navbar">
+                <li><a class="nav-link-active" href="#">Dashboard</a></li>
+                <li><a href="#">Cargo Gear</a></li>
+                <li><a href="#">Breakdown</a></li>
+                <li><a href="#">Daily Reports</a></li>
+                <li><a href="#">Cargo Operation</a></li>
+                <li><a href="#">Bunker</a></li>
+                <li><a href="#">Time Loss</a></li>
+                <li><a href="#">Port Turn Out</a></li>
+                <li><a href="#">Ballast Tank</a></li>
+                <li><a href="#">Demarrage & Despatch</a></li>
+                <li><a href="#">Voyage Summary</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Left Side -->
+        <div class="main-left-side">
+            <button class="global-btn">
+                <img src="img/icon/web-icon.svg" alt="">
+                Global
+            </button>
+            <h5 class="left-side-titel">Individual Ship</h5>
+            <!-- Left Dropdown Menus -->
+            <div>
+                <!-- Dropdown Menu Item -->
+                <div>
+                    <button onclick="showLeftDropdown('left-drop-menu-one', 'left-drop-btn-one')" class="left-drop-btn left-drop-btn-one">
+                        <img src="img/profile/user.png" alt="">
+                        <span>Ansarul Hoque</span>
+                        <i class="fa-solid fa-chevron-down left-drop-btn-icon"></i>
+                    </button>
+                    <div class="left-drop-menu left-drop-menu-one hidden">
+                        <ul>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Dropdown Menu Item -->
+                <div>
+                    <button onclick="showLeftDropdown('left-drop-menu-two', 'left-drop-btn-two')" class="left-drop-btn left-drop-btn-two">
+                        <img src="img/profile/user.png" alt="">
+                        <span>Ansarul Hoque</span>
+                        <i class="fa-solid fa-chevron-down left-drop-btn-icon"></i>
+                    </button>
+                    <div class="left-drop-menu left-drop-menu-two hidden">
+                        <ul>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Dropdown Menu Item -->
+                <div>
+                    <button onclick="showLeftDropdown('left-drop-menu-three', 'left-drop-btn-three')" class="left-drop-btn left-drop-btn-three">
+                        <img src="img/profile/user.png" alt="">
+                        <span>Ansarul Hoque</span>
+                        <i class="fa-solid fa-chevron-down left-drop-btn-icon"></i>
+                    </button>
+                    <div class="left-drop-menu left-drop-menu-three hidden">
+                        <ul>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Dropdown Menu Item -->
+                <div>
+                    <button onclick="showLeftDropdown('left-drop-menu-four', 'left-drop-btn-four')" class="left-drop-btn left-drop-btn-four">
+                        <img src="img/profile/user.png" alt="">
+                        <span>Ansarul Hoque</span>
+                        <i class="fa-solid fa-chevron-down left-drop-btn-icon"></i>
+                    </button>
+                    <div class="left-drop-menu left-drop-menu-four hidden">
+                        <ul>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Dropdown Menu Item -->
+                <div>
+                    <button onclick="showLeftDropdown('left-drop-menu-five', 'left-drop-btn-five')" class="left-drop-btn left-drop-btn-five">
+                        <img src="img/profile/user.png" alt="">
+                        <span>Ansarul Hoque</span>
+                        <i class="fa-solid fa-chevron-down left-drop-btn-icon"></i>
+                    </button>
+                    <div class="left-drop-menu left-drop-menu-five hidden">
+                        <ul>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                            <li>
+                                <p>Jahan Brothers 2</p> <span>Streaming</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right Side -->
+        <div class="main-right-side">
+            <div class="right-side-header">
+                <h4>Cargo Gear</h4>
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+            <!-- Cargo Reports Items -->
+            <div class="right-side-box-contianer">
+                <!-- Reports Item -->
+                <div class="right-side-box-item">
+                    <div class="right-side-box-head">
+                        <span><img src="img/icon/ship-icon.png" alt=""></span>
+                        <h4>12</h4>
+                    </div>
+                    <p>Renewal/Abnormality</p>
+                    <h5>Cargo Discharge Report</h5>
+                </div>
+                <!-- Reports Item -->
+                <div class="right-side-box-item">
+                    <div class="right-side-box-head">
+                        <span><img src="img/icon/excess-icon.png" alt=""></span>
+                        <p>MON 05-02-23</p>
+                    </div>
+                    <div class="right-side-box-footer">
+                        <h5>Daily Excess Consumption</h5>
+                        <div>
+                            <p>VLSFO: 10 MT</p>
+                            <p>LSMGO: 30 MT</p>
+                            <p>MDO: 12 MT</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Reports Item -->
+                <div class="right-side-box-item">
+                    <div class="right-side-box-head">
+                        <span><img src="img/icon/speed-icon.png" alt=""></span>
+                        <h4>5</h4>
+                    </div>
+                    <h5>Daily Speed Underperformance</h5>
+                </div>
+                <!-- Reports Item -->
+                <div class="right-side-box-item">
+                    <div class="right-side-box-head">
+                        <span><img src="img/icon/loading-icon.png" alt=""></span>
+                        <h4>5</h4>
+                    </div>
+                    <h5>Cargo Loading <br>Report</h5>
+                </div>
+                <!-- Reports Item -->
+                <div class="right-side-box-item">
+                    <div class="right-side-box-head">
+                        <span><img src="img/icon/discharge-icon.png" alt=""></span>
+                        <h4>12</h4>
+                    </div>
+                    <h5>Cargo Discharge <br>Report</h5>
+                </div>
+                <!-- Reports Item -->
+                <div class="right-side-box-item">
+                    <div class="right-side-box-head">
+                        <span><img src="img/icon/excess-icon.png" alt=""></span>
+                        <p>15-01-2023 to Present</p>
+                    </div>
+                    <div class="right-side-box-footer">
+                        <h5>Total Voyage Excess Consumption</h5>
+                        <div>
+                            <p>VLSFO: 10 MT</p>
+                            <p>LSMGO: 30 MT</p>
+                            <p>MDO: 12 MT</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Reports Item -->
+                <div class="right-side-box-item">
+                    <div class="right-side-box-head">
+                        <span><img src="img/icon/bunker-icon.png" alt=""></span>
+                        <h4>11</h4>
+                    </div>
+                    <h5>Upcoming Bunker Demands</h5>
+                </div>
+                <!-- Reports Item -->
+                <div class="right-side-box-item">
+                    <div class="right-side-box-head">
+                        <span><img src="img/icon/breackdown-icon.png" alt=""></span>
+                        <h4>7</h4>
+                    </div>
+                    <div class="right-side-box-footer">
+                        <h5>Crane Breakdown Loss</h5>
+                        <div>
+                            <p>Total: 20 hrs</p>
+                            <p>15-01-2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Chart Container -->
+            <div class="chart-container">
+                <h4>Cargo Gear</h4>
+            </div>
+        </div>
+    </main>
+    <!-- Main js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
