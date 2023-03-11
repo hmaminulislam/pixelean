@@ -1,6 +1,7 @@
 const btnAll = document.querySelectorAll(".left-dropdown");
 
 btnAll.forEach((btn) => {
+
   btn.addEventListener("click", () => {
     if (btn.classList.contains("activeDrop")) {
       btn.classList.remove("activeDrop");
@@ -11,6 +12,7 @@ btnAll.forEach((btn) => {
       btn.classList.toggle("activeDrop");
     }
   });
+
 });
 
 // Right Side Navigation dropdown
