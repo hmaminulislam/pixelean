@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon/favicon.png" type="image/x-icon">
     <title>SMK LTD - Dashboard</title>
     <link rel="stylesheet" href="css/style.css">
     <!-- Fontawesome -->
@@ -11,6 +13,7 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
         <!-- Logo -->
@@ -82,6 +85,12 @@
         </nav>
         <!-- Left Side -->
         <div class="main-left-side">
+            <div class="mobile-logo">
+                <span>SMK LTD.</span>
+            </div>
+            <div class="mobile-bar-close">
+                <i onclick="closeLeftbar()" class="fa-solid fa-xmark"></i>
+            </div>
             <button class="global-btn">
                 <i class="fa-solid fa-earth-americas"></i>
                 Global
@@ -203,6 +212,9 @@
         </div>
         <!-- Right Side -->
         <div class="main-right-side">
+            <div id="mobile-sidebar" class="mobile-sidebar">
+                <i id="mobile-sidebar-icon" onclick="showLeftBar()" class="fa-solid fa-square-caret-right"></i>
+            </div>
             <div class="right-side-header">
                 <h4>Global Ship Report</h4>
                 <i id="right-drop-btn" onclick="showDropMenu()" class="fa-solid fa-bars-staggered"></i>
@@ -416,4 +428,5 @@
     <!-- Main js -->
     <script src="js/main.js"></script>
 </body>
+
 </html>

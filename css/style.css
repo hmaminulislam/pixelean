@@ -10,9 +10,11 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
 .bg-primary {
     background-color: #2C64E4;
 }
+
 .text-primary {
     color: #373B45;
 }
@@ -25,18 +27,22 @@ header {
     background-color: #0F141F;
     padding: 0 20px;
 }
+
 .logo-container {
     width: 18%;
 }
+
 .logo-container h3 {
     color: #fff;
     font-weight: 700;
     font-size: 21px;
     line-height: 25px;
 }
+
 nav {
     width: 82%;
 }
+
 .navbar {
     list-style: none;
     display: flex;
@@ -44,6 +50,7 @@ nav {
     align-items: center;
     width: 100%;
 }
+
 .navbar li a {
     text-decoration: none;
     color: #97A4C1;
@@ -51,6 +58,7 @@ nav {
     font-weight: 500;
     display: inline-block;
 }
+
 .nav-link-active {
     background: #2E3A54;
     color: #fff !important;
@@ -63,6 +71,7 @@ main {
     display: flex;
     position: relative;
 }
+
 /* Nagigation Dropdown  */
 .nav-dropdown {
     position: absolute;
@@ -74,37 +83,45 @@ main {
     padding: 0 10px;
     box-shadow: 0px 1px 4px 1px #00000087;
 }
+
 .nav-dropdown ul {
     list-style: none;
 }
-.nav-dropdown ul li{
+
+.nav-dropdown ul li {
     display: flex;
     align-items: center;
     gap: 10px;
     margin: 15px 0;
 }
-.nav-dropdown ul li img{
+
+.nav-dropdown ul li img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background: #2C64E4;
     padding: 6px;
 }
-.nav-dropdown ul li a{
+
+.nav-dropdown ul li a {
     font-weight: 600;
     font-size: 12px;
     color: #333333;
     text-decoration: none;
 }
-.nav-dropdown ul li:hover a{
+
+.nav-dropdown ul li:hover a {
     color: #fff;
 }
+
 .nav-dropdown ul li:hover {
     cursor: pointer;
 }
+
 .hidden {
     display: none;
 }
+
 /* Main right and left */
 .main-left-side {
     background-color: #0F141F;
@@ -112,6 +129,7 @@ main {
     padding: 0 20px;
     min-height: calc(100vh - 78px);
 }
+
 .global-btn {
     background: radial-gradient(75.47% 75.47% at 50% 0%, #598BFC 0%, #1A55DB 100%);
     border-radius: 12px;
@@ -126,14 +144,17 @@ main {
     gap: 11px;
     cursor: pointer;
 }
+
 .global-btn i {
     font-size: 20px;
 }
+
 .main-right-side {
     width: 82%;
     padding: 0 26px;
     background-color: #F4F8FF;
 }
+
 .left-side-titel {
     font-weight: 600;
     font-size: 14px;
@@ -142,6 +163,7 @@ main {
     margin: 10px 0;
     margin: 20px 0;
 }
+
 .left-drop-btn {
     display: flex;
     justify-content: space-between;
@@ -154,29 +176,35 @@ main {
     cursor: pointer;
     margin-bottom: 20px;
 }
+
 .left-drop-btn:hover {
     background: #284380;
 }
+
 .left-drop-btn-active {
     background: #284380;
 }
+
 .left-drop-btn span {
     font-weight: 600;
     font-size: 14px;
     color: #F0F2F7;
 }
+
 .left-drop-btn i {
     font-weight: 600;
     font-size: 14px;
     color: #cddcff;
     margin-top: 3px;
 }
+
 .left-drop-menu {
     list-style: none;
     margin-left: 30px;
     transition: all .4s ease-in;
     display: none;
 }
+
 .left-drop-menu li {
     padding: 10px 10px;
     background: #2E3A54;
@@ -186,21 +214,28 @@ main {
     width: 170px;
     margin-bottom: 12px;
 }
+
 .left-drop-menu li p {
     font-weight: 600;
     font-size: 12px;
     color: #F0F2F7;
     transition: all .4s ease-in;
 }
+
 .left-drop-menu li span {
     font-weight: 600;
     font-size: 12px;
     color: #6D7DA0;
     transition: all .4s ease-in;
 }
+
 .left-sidebar-dropdown .activeDrop .left-drop-menu {
     transition: all .4s ease-in;
     display: block;
+}
+
+.left-sidebar-dropdown .activeDrop .left-drop-btn-icon {
+    transform: rotate(180deg);
 }
 
 /* Right side */
@@ -210,21 +245,25 @@ main {
     align-items: center;
     padding: 20px 0;
 }
+
 .right-side-header h4 {
     font-weight: 700;
     font-size: 24px;
     color: #0F141F;
 }
+
 .right-side-header i {
     color: #2668FF;
     font-size: 25px;
     cursor: pointer;
 }
+
 .right-side-box-contianer {
     display: grid;
     grid-template-columns: repeat(4, 23.5%);
     gap: 20px;
 }
+
 .right-side-box-item {
     border-radius: 12px;
     border: 1px solid #749eff46;
@@ -235,32 +274,40 @@ main {
     background-size: cover;
     background-color: #fff;
 }
+
 .right-side-box-item:hover {
     background-color: #004cff;
     transition: .5s ease;
 }
+
 .right-side-box-item:hover .right-side-box-head h4 {
     color: #fff;
 }
+
 .right-side-box-item:hover .right-side-box-footer div p {
     color: #fff;
 }
+
 .right-side-box-item:hover p {
     color: #fff;
 }
+
 .right-side-box-item:hover h5 {
     color: #fff;
 }
+
 .right-side-box-item:hover {
     opacity: 5;
 }
+
 .right-side-box-head {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
-.right-side-box-head span{
-    background-color:#2C64E4;
+
+.right-side-box-head span {
+    background-color: #2C64E4;
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -268,30 +315,36 @@ main {
     justify-content: center;
     align-items: center;
 }
-.right-side-box-head h4{
+
+.right-side-box-head h4 {
     font-weight: 700;
     font-size: 32px;
     color: #373B45;
 }
+
 .right-side-box-item p {
     font-weight: 500;
     font-size: 12px;
     color: #757575;
     margin-bottom: 10px;
 }
+
 .right-side-box-item h5 {
     font-weight: 700;
     font-size: 16px;
     color: #373B45;
 }
+
 .right-side-box-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .right-side-box-footer h5 {
     width: 50%;
 }
+
 .right-side-box-footer div p {
     margin-bottom: 4px;
     font-weight: 500;
@@ -301,7 +354,7 @@ main {
 
 /* Chart */
 
-.cargo-gear h4{
+.cargo-gear h4 {
     font-weight: 700;
     font-size: 20px;
     color: #596B8D;
@@ -309,6 +362,7 @@ main {
     margin: 40px 0 20px;
     position: relative;
 }
+
 .cargo-gear h4::after {
     position: absolute;
     content: "";
@@ -319,6 +373,7 @@ main {
     background-color: #DEDEDE;
     width: 40%;
 }
+
 .cargo-gear h4::before {
     position: absolute;
     content: "";
@@ -333,73 +388,86 @@ main {
 /* Chart */
 
 .chart-contianer {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
     gap: 70px;
 }
+
 .chart-left {
     width: 311.656px;
 }
+
 .chart-left-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .chart-left-head h5 {
     font-weight: 700;
     font-size: 18px;
-    color: #0F141F; 
+    color: #0F141F;
 }
+
 .chart-left-head-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 8px;
 }
+
 .chart-left-head-content div {
     display: flex;
     align-items: center;
     gap: 5px;
 }
+
 .chart-left-head-content div span {
     font-weight: 500;
     font-size: 10px;
     color: #000;
 }
+
 .chart-left-head-content div i {
     font-size: 10px;
     color: #000;
 }
+
 .chart-icon-container i {
     color: #2668FF !important;
     font-size: 26px !important;
 }
+
 .chart-left-heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 20px 0;
 }
+
 .chart-left-heading h5 {
     font-weight: 500;
     font-size: 12px;
     color: #39393980;
 }
+
 .chart-left-heading-active {
     color: #393939 !important;
 }
+
 .chane-container {
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 34px;
 }
-.chane-container span{
+
+.chane-container span {
     font-weight: 400;
     font-size: 8px;
     color: #000;
     position: relative;
 }
+
 .chane-one::after {
     position: absolute;
     content: "";
@@ -410,6 +478,7 @@ main {
     border-radius: 50%;
     background: #6AC446;
 }
+
 .chane-two::after {
     position: absolute;
     content: "";
@@ -420,6 +489,7 @@ main {
     border-radius: 50%;
     background: #DFCE33;
 }
+
 .chane-three::after {
     position: absolute;
     content: "";
@@ -430,6 +500,7 @@ main {
     border-radius: 50%;
     background: #D93D2E;
 }
+
 .chane-four::after {
     position: absolute;
     content: "";
@@ -440,26 +511,31 @@ main {
     border-radius: 50%;
     background: #369BE5;
 }
+
 .chart-1000 {
     display: flex;
     align-items: center;
     gap: 15px;
     margin-top: 17px;
 }
+
 .chart-1000 p {
     font-weight: 400;
     font-size: 8px;
     color: #757575;
 }
+
 .chart-1000 hr {
     border: 1px solid #FFE8E6;
     width: 100%;
 }
+
 .chart-graph {
     display: flex;
     align-items: center;
     gap: 15px;
 }
+
 .chart-graph div p {
     font-weight: 400;
     font-size: 8px;
@@ -467,16 +543,19 @@ main {
     margin-top: 9px;
     text-align: end;
 }
+
 .chart-graph-img {
     position: relative;
     height: 100%;
 }
+
 .chart-graph-img-yellow {
     position: absolute;
     left: 0;
     top: 6px;
     z-index: 1;
 }
+
 .chart-graph-img-red {
     position: absolute;
     left: 0;
@@ -485,10 +564,12 @@ main {
     right: 0;
     z-index: 1;
 }
+
 .chart-graph-img-wave {
     margin-top: 12px;
     z-index: 1;
 }
+
 .chart-graph-content {
     display: flex;
     justify-content: space-between;
@@ -502,82 +583,102 @@ main {
     border-radius: 6px;
     z-index: 5;
 }
-.chart-graph-content span{
+
+.chart-graph-content span {
     font-weight: 600;
     font-size: 10px;
     color: #333333;
 }
+
 .chart-right {
     width: 672px;
 }
+
 .chart-right-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .chart-right-head h5 {
     font-weight: 700;
     font-size: 18px;
-    color: #0F141F; 
+    color: #0F141F;
 }
+
 .chart-right-head-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 15px;
 }
-.chart-right-head-content div span{
+
+.chart-right-head-content div span {
     font-weight: 500;
     font-size: 12px;
     color: #393939;
 }
+
+.chart-right-body {
+    margin-top: 25px;
+}
+
 .chart-right-body p {
     font-weight: 600;
     font-size: 12px;
     color: #343434;
 }
+
 .chart-time {
     display: flex;
     justify-content: space-between;
     margin: 4px 0;
     max-width: 252px;
 }
+
 .chart-time-one {
     background: #2C64E4;
     border-radius: 12px;
     padding: 5px 10px;
-    transform: translate(35%, 0%);
+    transform: translate(85px, 0%);
 }
+
 .chart-time-one span {
     font-weight: 400;
     font-size: 8px;
     color: #fff;
 }
+
 .chart-time-one i {
     font-size: 10px;
     color: #fff;
 }
+
 .chart-time-two {
     background: #fff;
     border-radius: 12px;
     padding: 5px 10px;
     border: 0.8px solid #DEDEDE;
-    transform: translate(55%, 0%);
+    transform: translate(135px, 0%);
 }
+
 .chart-time-two span {
     font-weight: 400;
     font-size: 8px;
     color: #393939;
 }
+
 .chart-time-two i {
     font-size: 10px;
     color: #393939;
 }
+
 .chart-time-dubble {
     display: flex;
     margin-left: 164px;
     gap: 40px;
 }
+
 .chart-time-three {
     background: #fff;
     border-radius: 12px;
@@ -585,15 +686,18 @@ main {
     border: 0.8px solid #DEDEDE;
     width: 252px;
 }
+
 .chart-time-three span {
     font-weight: 400;
     font-size: 8px;
     color: #393939;
 }
+
 .chart-time-three i {
     font-size: 10px;
     color: #393939;
 }
+
 .chart-time-four {
     background: #fff;
     border-radius: 12px;
@@ -601,22 +705,438 @@ main {
     border: 0.8px solid #DEDEDE;
     width: 102px;
 }
+
 .chart-time-four span {
     font-weight: 400;
     font-size: 8px;
     color: #393939;
 }
+
 .chart-time-four i {
     font-size: 10px;
     color: #393939;
 }
+
 .chart-count {
     display: flex;
     justify-content: space-between;
     margin-left: 60px;
 }
-.chart-count span{
+
+.chart-count span {
     font-weight: 400;
     font-size: 8px;
     color: #757575;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+.mobile-sidebar {
+    display: none;
+}
+
+.mobile-sidebar i {
+    font-size: 25px;
+    color: #1A55DB;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    z-index: 9999999;
+}
+
+.mobile-bar-close {
+    display: none;
+}
+
+.mobile-bar-close i {
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.mobile-bar-close i:hover {
+    color: #1A55DB;
+}
+
+/* Responsive max width 1200  */
+
+@media screen and (max-width: 1200px) {
+    header {
+        padding: 0;
+        background-color: #fff;
+    }
+
+    .logo-container {
+        background-color: #0F141F;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    main .main-right-side {
+        margin-top: -78px;
+    }
+
+    .right-side-box-contianer {
+        grid-template-columns: auto auto auto;
+    }
+
+    .cargo-gear h4::before {
+        right: 41%;
+        width: 36%;
+    }
+
+    .cargo-gear h4::after {
+        left: 41%;
+        width: 36%;
+    }
+
+    .chart-contianer {
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .chart-time {
+        max-width: 143px;
+    }
+
+    .chart-right {
+        width: 444px;
+    }
+
+    .chart-time-two {
+        transform: translate(113px, 0%);
+    }
+
+    .chart-time-dubble {
+        margin-left: 128px;
+        gap: 26px;
+    }
+
+    .chart-time-four {
+        width: 73px;
+    }
+
+    .left-drop-btn span {
+        font-size: 12px;
+    }
+
+    .left-drop-btn i {
+        font-size: 11px;
+    }
+
+    .left-drop-menu li {
+        padding: 8px;
+        background: #2E3A54;
+        border-radius: 8px;
+        width: 145px;
+
+    }
+
+}
+
+/* Responsive max width 992  */
+
+@media screen and (max-width: 992px) {
+    .left-drop-btn span {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .left-drop-btn i {
+        font-size: 10px;
+        margin-top: 2px
+    }
+
+    .left-drop-btn img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .left-drop-menu {
+        margin-left: 20px;
+    }
+
+    .left-drop-menu li {
+        width: 110px !important;
+        padding: 7px;
+        transform: translate(9px);
+    }
+
+    .left-drop-menu li p {
+        font-size: 10px;
+    }
+
+    .left-drop-menu li span {
+        font-size: 8px;
+    }
+
+    .global-btn {
+        gap: 8px;
+    }
+
+    .global-btn i {
+        font-size: 12px;
+    }
+
+    .global-btn {
+        font-size: 12px
+    }
+
+    .right-side-box-contianer {
+        grid-template-columns: repeat(2, 48%);
+    }
+
+    .cargo-gear h4::before {
+        right: 41%;
+        width: 38%;
+    }
+
+    .cargo-gear h4::after {
+        left: 41%;
+        width: 38%;
+    }
+
+    .chart-left {
+        max-width: 306px;
+    }
+
+    .chart-right {
+        max-width: 442px;
+    }
+
+    .chart-contianer {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .chart-time-one {
+        transform: translate(76px, 0%);
+    }
+
+    .chart-time {
+        max-width: 150px;
+    }
+
+    .chart-time-two {
+        transform: translate(104px, 0%);
+    }
+
+    .chart-time-dubble {
+        margin-left: 125px;
+        gap: 11px;
+    }
+
+    .chart-time.chart-time-four {
+        max-width: 80px;
+    }
+}
+
+/* Responsive max width 768  */
+
+@media screen and (max-width: 768px) {
+    main .main-right-side {
+        margin-top: 0px;
+    }
+
+    main .main-right-side {
+        width: 100%;
+    }
+
+    header {
+        display: none;
+    }
+
+    .main-left-side {
+        position: fixed;
+        width: 300px;
+        min-height: 100%;
+        padding: 20px 15px;
+        z-index: 999;
+        left: 0;
+        display: none;
+    }
+
+    .left-drop-btn {
+        padding: 10px 10px;
+        border-radius: 0px;
+    }
+
+    .left-drop-btn span {
+        font-size: 8px;
+        margin-left: 8px;
+    }
+
+    .left-drop-menu {
+        margin-left: 16px;
+    }
+
+    .left-drop-menu li {
+        width: 150px !important;
+        padding: 6px 13px;
+        border-radius: 0;
+        transform: translate(113px);
+    }
+
+    .left-drop-menu li p {
+        margin-bottom: 2px;
+        font-size: 8px;
+    }
+
+    .left-drop-menu li span {
+        font-size: 7px;
+    }
+
+    .main-left-side {
+        padding: 0 10px;
+    }
+
+    .right-side-box-contianer {
+        grid-template-columns: repeat(2, 48%);
+    }
+
+    .cargo-gear h4::before {
+        right: 33%;
+        width: 27%;
+    }
+
+    .cargo-gear h4::after {
+        left: 33%;
+        width: 27%;
+    }
+
+    .chart-contianer {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .mobile-sidebar {
+        display: block;
+    }
+
+    .mobile-bar-close {
+        display: block;
+    }
+
+    .block {
+        display: block !important;
+    }
+
+    .rotate-icon {
+        transform: rotate(180deg);
+        color: #b6b6b6 !important;
+    }
+
+    .mobile-logo {
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        display: block;
+    }
+}
+
+/* Responsive max width 576  */
+
+@media screen and (max-width: 576px) {
+    .left-drop-btn span {
+        font-size: 14px;
+    }
+
+    .left-drop-btn img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .left-drop-btn i {
+        font-size: 13px
+    }
+
+    .left-drop-menu li {
+        max-width: 180px !important;
+    }
+
+    .right-side-box-contianer {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .cargo-gear h4::before {
+        right: 31%;
+        width: 26%;
+    }
+
+    .cargo-gear h4::after {
+        left: 31%;
+        width: 26%;
+    }
+
+    .chart-right {
+        max-width: 315px;
+    }
+
+    main {
+        justify-content: center;
+    }
+
+    .right-side-box-item {
+        height: 205px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-right-side {
+        width: 100%;
+    }
+
+    .chart-time {
+        max-width: 98px;
+    }
+
+    .chart-time span {
+        font-size: 8px;
+    }
+
+    .chart-time i {
+        font-size: 8px;
+    }
+
+    .chart-time-one {
+        transform: translate(73px, 0%);
+    }
+
+    .chart-time-two {
+        transform: translate(89px, 0%);
+    }
+
+    .chart-time-dubble {
+        margin-left: 98px;
+        gap: 13px;
+    }
+
+    .chart-time.chart-time-four {
+        max-width: 53px;
+        padding: 5px;
+    }
+
+    .chart-time.chart-time-four span i {
+        font-size: 3px;
+    }
+
 }
