@@ -429,6 +429,10 @@ main {
 
 /* Chart */
 
+.cargo-gear {
+    padding-bottom: 52px;
+}
+
 .chart-contianer {
     display: flex;
     gap: 70px;
@@ -832,7 +836,7 @@ main {
     }
 
     .right-side-box-contianer {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: repeat(3, 31.2%);
     }
 
     .cargo-gear h4::before {
@@ -886,6 +890,9 @@ main {
     }
     .left-drop-menu-li::before {
         width: 22%;
+    }
+    .left-drop-menu-li::after {
+        height: 57%;
     }
 
 }
